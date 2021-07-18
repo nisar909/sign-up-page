@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<link rel="stylesheet" href="../signup/css/tablecss.css">
+<head>
+<title>Sign up page!</title>
+<style>
+   
+    </style>
+</head>
+<div>
+    <body class="b-img">
+        <h2 class="heading">Please Signup</h2>
+    
+        <form action="/action_page.php">
+                 
+                    <label for="firstName" class="hidden-label">First Name:</label>
+                    <input id="firstName" type="text" placeholder="First Name">
+                       
+                    <label for="lastName" class="hidden-label">Last Name:</label>
+                    <input id="lastName" type="text" placeholder="Last Name">
+                        
+                    <label for="dob" type="date"class="hidden-label">Date of birth:</label>
+                    <input id="dob" type="date" placeholder="MM/DD/YYYY">
+                      
+                    <lable for="email" type="email" class="hidden-label">Email:</lable>
+                    <input id="email" type="email" placeholder="user@email.com">
+                       
+                    <lable for="password" type="password" class="hidden-label">Password:</lable>
+                    <input id="password" type="password" placeholder="Password">
+                       
+                    <select name="countryList" id="countryList">
+                    <label for="countryList" class="hidden-label">Country</label>
+                    <option value=""disabled selected hidden><span class="clist">Country of Stay</span></option>
+                    <option value="pak">Pakistan</option>
+                    <option value="us">USA</option>
+                    <option value="uae">UAE</option>
+                    </select>
+                     
+                     <label for="yourdetails" class="hidden-label">Your Details:</label>
+                     <textarea id="yourdetails" name="yourdetails" placeholder="Tell us about you"></textarea>
+                </label>
+                    <div class="checkbox">
+                        <label for="vehicle1"> I agree terms and conditions</label>
+                <input type="checkbox" id="agree" name="agree" value="yes" checked="checked">
+                
+            </div>
+
+            <br>
+                    <button type="submit" class="signupbtn">Sign Up!</button>
+                    
+        </form>
+    </body>
+</div>
+
+</html>
